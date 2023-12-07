@@ -70,6 +70,14 @@ class Buyer{
 		}
 		return count;
 	}
+	void summary() { //상품요약
+		cartCount();
+		for(int i =0;i<count;i++) {
+			System.out.print(cart[i]+" : ");
+			System.out.println(foodAmount[i]+"개");
+		}
+		count=0;
+	}
 }
 public class test {
 
