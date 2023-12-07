@@ -78,6 +78,16 @@ class Buyer{
 		}
 		count=0;
 	}
+	void removeCart() { //카트비우기
+		cartCount();
+		for(int i =count-1;i>=0;i--) {
+			cart[i]=null;
+			foodAmount[i]=0;
+		}
+		price=0;
+		bonusPoint=0;
+		count=0;
+	}
 }
 public class test {
 
