@@ -60,6 +60,9 @@ class Buyer{
 	int sumPrice() { //총금액리턴
 		return price;
 	}
+	int sumBonusPoint() { //총적립금리턴
+		return bonusPoint;
+	}
 }
 public class test {
 
