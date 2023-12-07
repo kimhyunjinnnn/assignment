@@ -57,6 +57,9 @@ class Buyer{
 		foodCnt2++;
 		return selectedFood.price; //선택한 상품 단가 리턴
 	}
+	int sumPrice() { //총금액리턴
+		return price;
+	}
 }
 public class test {
 
